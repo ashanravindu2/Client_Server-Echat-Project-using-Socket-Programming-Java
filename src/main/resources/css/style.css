@@ -1,0 +1,19 @@
+.btn:hover{
+    -fx-background-color: #8827e8;
+}
+.btn2{
+    -fx-background-color: #8f3dec;
+}
+
+.client:hover{
+    -fx-background-color: rgba(112, 111, 211, 0.68);
+}
+.client2{
+    -fx-background-color: rgba(112, 111, 211, 0.46);
+}
+
+
+.Imageview {
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}

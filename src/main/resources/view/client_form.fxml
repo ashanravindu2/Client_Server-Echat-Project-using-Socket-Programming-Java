@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="pane" prefHeight="475.0" prefWidth="657.0" style="-fx-background-color: #d7ace3;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.ClientController">
+   <children>
+      <ImageView fitHeight="69.0" fitWidth="65.0" layoutX="151.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/orange%20fluffy%20ball%20with%20wide%20eyes%20and%20a%20gentle%20smile.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblgetName" layoutX="28.0" layoutY="192.0" prefHeight="32.0" prefWidth="34.0" text="Label" visible="false" />
+      <ImageView fitHeight="121.0" fitWidth="133.0" layoutX="312.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true" rotate="-100.6">
+         <image>
+            <Image url="@../assets/donut%20chart%20and%20glossy%20shapes%20in%20dynamic%20setting.png" />
+         </image>
+      </ImageView>
+      <ScrollPane fx:id="scrollpain" hbarPolicy="NEVER" layoutX="198.0" layoutY="12.0" pannable="true" prefHeight="353.0" prefWidth="445.0">
+         <content>
+            <VBox fx:id="vBox" prefHeight="0.0" prefWidth="443.0">
+               <opaqueInsets>
+                  <Insets bottom="10.0" top="10.0" />
+               </opaqueInsets></VBox>
+         </content>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <DropShadow height="255.0" radius="127.0" width="255.0">
+               <color>
+                  <Color red="0.46034666895866394" green="0.04879999905824661" blue="0.6100000143051147" opacity="0.442748099565506" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ScrollPane>
+      <Label fx:id="leftmember" layoutX="548.0" layoutY="128.0" prefHeight="24.0" prefWidth="81.0" textFill="#6e0c80">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <ImageView fitHeight="62.0" fitWidth="126.0" layoutX="143.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/plush%20blue%20creature%20with%20playful%20eyes%20and%20a%20quirky%20grin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="55.0" layoutX="-10.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/orange%20fluffy%20ball%20with%20wide%20eyes%20and%20a%20gentle%20smile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="74.0" layoutX="45.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/cheerful%20pink%20fuzz%20with%20bulging%20eyes%20and%20a%20goofy%20smile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="114.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true" rotate="45.0">
+         <image>
+            <Image url="@../assets/blue%20glass%20smart%20watch.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="55.0" fitWidth="46.0" layoutX="116.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true" rotate="35.5">
+         <image>
+            <Image url="@../assets/blue%20glass%20headphones.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="126.0" layoutX="-28.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true" rotate="-60.9">
+         <image>
+            <Image url="@../assets/plush%20blue%20creature%20with%20playful%20eyes%20and%20a%20quirky%20grin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="74.0" layoutX="-4.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/plush%20blue%20creature%20with%20playful%20eyes%20and%20a%20quirky%20grin.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtMsg" layoutX="198.0" layoutY="392.0" onKeyPressed="#btnEnterOnAction" prefHeight="25.0" prefWidth="338.0" />
+      <JFXButton layoutX="199.0" layoutY="428.0" onAction="#btnMsgOnAction" prefHeight="32.0" prefWidth="91.0" stylesheets="@../css/style.css" text="Send" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="btn2" />
+         </styleClass>
+      </JFXButton>
+      <JFXButton alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="601.0" layoutY="388.0" onAction="#btnImageAction" prefHeight="32.0" prefWidth="40.0" stylesheets="@../css/style.css">
+         <graphic>
+
+         </graphic>
+         <styleClass>
+            <String fx:value="client" />
+            <String fx:value="client2" />
+         </styleClass>
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-camera-100.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="emojiBtn" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="552.0" layoutY="388.0" prefHeight="32.0" prefWidth="40.0" stylesheets="@../css/style.css" text="Button" textFill="#aea8c3">
+         <graphic>
+
+         </graphic>
+         <styleClass>
+            <String fx:value="client" />
+            <String fx:value="client2" />
+         </styleClass>
+         <graphic>
+            <ImageView fitHeight="24.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-happy-32.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+   <effect>
+      <DropShadow>
+         <color>
+            <Color red="0.2677631676197052" blue="0.4868420958518982" />
+         </color>
+      </DropShadow>
+   </effect>
+</AnchorPane>

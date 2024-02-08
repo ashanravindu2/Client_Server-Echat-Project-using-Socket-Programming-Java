@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: a55eea;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.LogInController">
+   <children>
+      <AnchorPane fx:id="pane" layoutX="284.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="316.0" style="-fx-background-color: white;">
+         <children>
+            <Rectangle fx:id="profileImg" accessibleRole="IMAGE_VIEW" arcHeight="5.0" arcWidth="5.0" fill="#eef3f8" height="68.0" layoutX="125.0" layoutY="27.0" stroke="#a45fe88a" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="67.0">
+               <effect>
+                  <DropShadow height="255.0" radius="127.0" width="255.0">
+                     <color>
+                        <Color red="0.41960784792900085" green="0.09803921729326248" blue="0.7372549176216125" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Rectangle>
+            <JFXButton fx:id="logBtn" layoutX="45.0" layoutY="320.0" onAction="#btnLogInAction" onKeyPressed="#btnEnterOnAction" prefHeight="36.0" prefWidth="227.0" stylesheets="@../css/style.css" text="JOIN" textFill="WHITE">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="btn2" />
+               </styleClass>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="68.0" layoutY="369.0" text="Don't have an Account?" />
+            <Label layoutX="202.0" layoutY="369.0" onMouseClicked="#getRegisterPageAction" text="Sign Up">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtUserName" layoutX="45.0" layoutY="141.0" onKeyTyped="#btnGetProfilePicAction" prefHeight="25.0" prefWidth="227.0" promptText="UserName" unFocusColor="#9327ae" />
+            <JFXTextField fx:id="txtPass" layoutX="45.0" layoutY="209.0" prefHeight="25.0" prefWidth="227.0" promptText="Password" unFocusColor="#9327ae" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="254.0" fitWidth="363.0" layoutX="4.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Man chatting on dating site.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
