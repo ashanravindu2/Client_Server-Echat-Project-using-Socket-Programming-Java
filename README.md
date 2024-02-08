@@ -34,12 +34,12 @@ To run the project, follow these steps:
 
 ## Project View Sample
 #### LOGIN PREVIEW
-![Alt text](src/main/resources/assets/projectView/UserLogin.PNG)
+![Alt text](src/main/resources/assets/LogIn_view.PNG)
 
 #### REGISTER PREVIEW
-![Alt text](src/main/resources/assets/projectView/Register.PNG)
+![Alt text](src/main/resources/assets/Register_view.PNG)
 
 #### CHAT PREVIEW
-![Alt text](src/main/resources/assets/projectView/Chat.PNG)
+![Alt text](src/main/resources/assets/View.PNG)
 
 
