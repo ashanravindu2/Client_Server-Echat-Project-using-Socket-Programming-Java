@@ -4,5 +4,5 @@ USE Vchat;
 CREATE TABLE IF NOT EXISTS user(
     userName VARCHAR(20) UNIQUE NOT NULL,
     password VARCHAR(20)  NOT NULL,
-    progilePicUrl VARCHAR(100)
+    profilePicUrl VARCHAR(100)
 );
