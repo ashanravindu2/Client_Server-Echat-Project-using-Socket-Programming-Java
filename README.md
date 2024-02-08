@@ -11,10 +11,10 @@ Before you begin, ensure you have met the following requirements:
 - Git for version control.
 - MySQL or another relational database management system installed.
 
--📌JavaFX: A framework for building desktop applications with a rich user interface.
--📌Socket Programming: Utilized for network communication between the client and server components.
--📌Multi-Threading: Implemented to handle concurrent communication between multiple clients and the server.
--📌JFoenix: A JavaFX library providing stylized buttons and UI components.
+- 📌JavaFX: A framework for building desktop applications with a rich user interface.
+- 📌Socket Programming: Utilized for network communication between the client and server components.
+- 📌Multi-Threading: Implemented to handle concurrent communication between multiple clients and the server.
+- 📌JFoenix: A JavaFX library providing stylized buttons and UI components.
 
 ### Database Setup
 
